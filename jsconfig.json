@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "typeRoots": [
+      "types"
+    ],
     "checkJs": true,
     "strict": true
   }
