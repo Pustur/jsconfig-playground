@@ -1,1 +1,6 @@
-{}
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "strict": true
+  }
+}
