@@ -6,5 +6,9 @@ class Box01 {
 
     if (box) box.addEventListener('click', console.log);
     else console.warn("Couldn't find box!");
+
+    this.swiperInstance = new Swiper(box, {
+      loop: true,
+    });
   }
 }
