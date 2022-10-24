@@ -4,6 +4,7 @@ class Box01 {
 
     const box = document.querySelector('.box');
 
-    box.addEventListener('click', console.log);
+    if (box) box.addEventListener('click', console.log);
+    else console.warn("Couldn't find box!");
   }
 }
