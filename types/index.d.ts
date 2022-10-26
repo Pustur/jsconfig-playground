@@ -1,3 +1,7 @@
-class Swiper {
-  constructor(element: Element, options: object);
+import { Swiper as SwiperType } from 'swiper';
+
+declare global {
+  const Swiper: typeof SwiperType;
 }
+
+export {};
